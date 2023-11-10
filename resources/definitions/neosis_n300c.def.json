@@ -1,0 +1,23 @@
+{
+    "version": 2,
+    "name": "NEOSIS N3D N300C",
+    "inherits": "neosis_n3d_n300c_base",
+    "metadata":
+    {
+        "visible": true,
+        "author": "wolfgangmauer",
+        "manufacturer": "NEOSIS",
+        "file_formats": "text/x-gcode",
+        "platform": "neosis_n3d_n300c_platform.3mf",
+        "first_start_actions": [ "MachineSettingsAction" ],
+        "machine_extruder_trains": { "0": "neosis_n3d_extruder_0" },
+        "quality_definition": "neosis_n3d_n300c_base"
+    },
+    "overrides":
+    {
+        "machine_depth": { "default_value": 310 },
+        "machine_height": { "default_value": 310 },
+        "machine_name": { "default_value": "NEOSIS N3D N300C" },
+        "machine_width": { "default_value": 310 }
+    }
+}
